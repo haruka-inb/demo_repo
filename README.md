@@ -34,3 +34,14 @@ Conflict happens when git doesn't know which part should be overwritten.
 folliwng the instruction on github, modify the code as we want to change  
 then do this command:  
 git commit -am "comment title"  
+
+## undo
+git reset:  undo "git add"  
+git reset HEAD~1: undo "git commit"  
+-> HEAD means the latest commit and ~1 means going back to one previous step  
+git reset (hash):  undo the correspond commit  
+gti reset --hard (hash): delete the correspond commit, so the correspond part of code will be deleted  
+git log: refer the commit log  
+
+## fork
+copy the entire repository under your account  
