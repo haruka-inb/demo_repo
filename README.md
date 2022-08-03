@@ -27,4 +27,10 @@ git push -u origin master
 go to the github and merge it with comment  
 
 git pull: get the update to local master branch  
-git branch -d (feature branch name)
+git branch -d (feature branch name)  
+
+## conflict
+Conflict happens when git doesn't know which part should be overwritten.  
+folliwng the instruction on github, modify the code as we want to change  
+then do this command:  
+git commit -am "comment title"  
