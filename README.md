@@ -2,12 +2,12 @@
 
 some description!
 
+<<<<<<< HEAD
 ## clone, add, and pushs
-
 git status: refer the branch and what I modifided
 gti add: track the new file
 git commit -m "comment title" -m "comment description": the file is still in local
-gti push: reflact the commit on the github website
+git push: reflact the commit on the github website
 
 ## git branch
 We put complete modifications on master(main) branch and incomplete ones on feature branch   
